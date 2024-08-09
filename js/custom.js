@@ -191,13 +191,72 @@
     //     }
     //     console.log(str);
     // }
-    num=1
-    for(i=1;i<=4;i++){
-        str=""
-        for(j=0;j<i;j++){
-            str+=num
-            num++
-        }
-        console.log(str);
-    } 
-    
+    // num=1
+    // for(i=1;i<=4;i++){
+    //     str=""
+    //     for(j=0;j<i;j++){
+    //         str+=num
+    //         num++
+    //     }
+    //     console.log(str);
+    // } 
+    // function asd(){
+    //     console.log("=========");
+    //     console.log("+++++++++");
+    //     console.log("---------");
+    //     console.log("**********");
+    //     console.log("=========");
+    //     console.log("+++++++++")
+    // }
+    // asd()
+    // console.log("good morning");
+    // asd()
+    // console.log("good Afternoon");
+    // asd()
+    // console.log("good evenning");
+    // asd()
+    // console.log("good ni8");
+    // asd()
+    // function eatFood(money){
+    //     if(money<=100){
+    //         console.log("eat meals");
+    //     }
+    //     else if(money<150){
+    //         console.log("eat biriyani");
+    //     }
+    //     else{
+    //         console.log("eat kuzhimanthi");
+    //     }
+    // }
+    // eatFood(100)
+
+    // function buyApple(){
+    //     return "bought 1 kilo apple"
+    // }
+    // a=buyApple()
+    // console.log(a);
+    // function add(a,b){
+    //     return a+b
+    // }
+    // x=add(2,3)
+    // console.log(x);
+// a=parseInt(prompt())
+// b=parseInt(prompt())
+//     function add(a,b){
+//     return (a+b)**2
+        
+//     }
+//     x=add(a,b)
+
+//     console.log(x);
+// function asd(num){
+//     str=""
+//     for(i=1;i<=num;i+=2){
+//     str+=i        
+
+//     }
+//     return str
+
+// }
+// x=asd(10)
+// console.log(x);
