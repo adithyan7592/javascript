@@ -260,3 +260,63 @@
 // }
 // x=asd(10)
 // console.log(x);
+// function asd(){
+// let a=10;
+//  bsd(a)
+// console.log("function asd"+a);
+// }
+// function bsd(x){
+// x+=1;
+// console.log("function bsd"+x);
+// }
+
+// asd()
+// function asd(){
+//     let a=[10];
+//     bsd(a)
+//     console.log("function asd"+a[0]);
+ 
+// }
+// function bsd(x){
+//  x[0]+=1;
+//  console.log("function bsd"+x[0]);
+// }
+// asd()
+
+// function asd(a,b){
+//     function myfunction(){
+//         c=a+b;
+//         return c;
+
+//     }
+//     return myfunction
+
+// }
+// x=asd(5,3)
+// console.log(x());
+
+
+
+// function asd(a,b){
+//     function myfunction(){
+//         c=a+b;
+//         return c;
+
+//     }
+//     return myfunction
+
+// }
+// x=asd(5,3)
+// console.log(x)
+// console.dir(x)
+
+// document.getElementById("asd").textContent="hai"
+// document.getElementById("asd").innerHTML="<h1>good day</h1>"
+// document.getElementById("asd").setAttribute("class","as")
+// let value=document.getElementById("asd").getAttribute("class")
+// console.log(value);
+// document.getElementById("asd").removeAttribute("class")
+// document.getElementById("asd").style.color="red"
+const btn=document.createElement("button")
+btn.textContent="click me"
+document.getElementById("asd").appendChild(btn);
